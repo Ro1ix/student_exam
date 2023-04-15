@@ -1,0 +1,7 @@
+E:\Ваня\Колледж\2 курс\2 семестр\Программирование\Работа 12\student_exam\bin\Debug\student_exam.exe.config
+E:\Ваня\Колледж\2 курс\2 семестр\Программирование\Работа 12\student_exam\bin\Debug\student_exam.exe
+E:\Ваня\Колледж\2 курс\2 семестр\Программирование\Работа 12\student_exam\bin\Debug\student_exam.pdb
+E:\Ваня\Колледж\2 курс\2 семестр\Программирование\Работа 12\student_exam\obj\Debug\student_exam.csproj.AssemblyReference.cache
+E:\Ваня\Колледж\2 курс\2 семестр\Программирование\Работа 12\student_exam\obj\Debug\student_exam.csproj.CoreCompileInputs.cache
+E:\Ваня\Колледж\2 курс\2 семестр\Программирование\Работа 12\student_exam\obj\Debug\student_exam.exe
+E:\Ваня\Колледж\2 курс\2 семестр\Программирование\Работа 12\student_exam\obj\Debug\student_exam.pdb
