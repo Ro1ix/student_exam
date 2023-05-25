@@ -14,12 +14,8 @@ namespace student_exam
             int[,] marks = new int[25, 5];
             int rows = 25;
             int columns = 5;
+            double[] average_subject = new double[5];
             double average_student = 0;
-            double average_subject1 = 0;
-            double average_subject2 = 0;
-            double average_subject3 = 0;
-            double average_subject4 = 0;
-            double average_subject5 = 0;
             int max_subject = 0;
             int min_subject = 0;
             double max_average_student = 0;
@@ -28,7 +24,6 @@ namespace student_exam
             int min_student = 0;
             double max_average_subject = 0;
             double min_average_subject = 10000;
-            double[] subject_averages = new double[5];
             Random rand = new Random();
             for (int i = 0; i < rows; i++)
             {
@@ -48,19 +43,19 @@ namespace student_exam
                     switch (j)
                     {
                         case 0:
-                            average_subject1 = average_subject1 + marks[i, j];
+                            average_subject[0] = average_subject[0] + marks[i, j];
                             break;
                         case 1:
-                            average_subject2 = average_subject1 + marks[i, j];
+                            average_subject[1] = average_subject[1] + marks[i, j];
                             break;
                         case 2:
-                            average_subject3 = average_subject1 + marks[i, j];
+                            average_subject[2]= average_subject[2] + marks[i, j];
                             break;
                         case 3:
-                            average_subject4 = average_subject1 + marks[i, j];
+                            average_subject[3] = average_subject[3] + marks[i, j];
                             break;
                         case 4:
-                            average_subject5 = average_subject1 + marks[i, j];
+                            average_subject[4] = average_subject[4] + marks[i, j];
                             break;
                     }
                     average_student = average_student + marks[i, j];
@@ -80,29 +75,24 @@ namespace student_exam
                 Console.WriteLine($"    {average_student}\n");
                 average_student = 0;
             }
-            average_subject1 = Math.Round(average_subject1 / 25, 2);
-            average_subject2 = Math.Round(average_subject2 / 25, 2);
-            average_subject3 = Math.Round(average_subject3 / 25, 2);
-            average_subject4 = Math.Round(average_subject4 / 25, 2);
-            average_subject5 = Math.Round(average_subject5 / 25, 2);
-            Console.WriteLine($"            {average_subject1}  {average_subject2}  {average_subject3}  {average_subject4}  {average_subject5}");
+            average_subject[0] = Math.Round(average_subject[0] / 25, 2);
+            average_subject[1] = Math.Round(average_subject[1] / 25, 2);
+            average_subject[2] = Math.Round(average_subject[2] / 25, 2);
+            average_subject[3] = Math.Round(average_subject[3] / 25, 2);
+            average_subject[4] = Math.Round(average_subject[4] / 25, 2);
+            Console.WriteLine($"            {average_subject[0]}  {average_subject[1]}  {average_subject[2]}  {average_subject[3]}  {average_subject[4]}");
             Console.WriteLine($"\nУ студента {max_student} макс. ср. балл ({max_average_student})");
             Console.WriteLine($"У студента {min_student} мин. ср. балл ({min_average_student})");
-            subject_averages[0] = average_subject1;
-            subject_averages[1] = average_subject2;
-            subject_averages[2] = average_subject3;
-            subject_averages[3] = average_subject4;
-            subject_averages[4] = average_subject5;
-            for (int i = 0; i < subject_averages.Length; i++)
+            for (int i = 0; i < average_subject.Length; i++)
             {
-                if (max_average_subject < subject_averages[i])
+                if (max_average_subject < average_subject[i])
                 {
-                    max_average_subject = subject_averages[i];
+                    max_average_subject = average_subject[i];
                     max_subject = i + 1;
                 }
-                if (min_average_subject > subject_averages[i])
+                if (min_average_subject > average_subject[i])
                 {
-                    min_average_subject = subject_averages[i];
+                    min_average_subject = average_subject[i];
                     min_subject = i + 1;
                 }
             }

@@ -5,3 +5,11 @@ E:\Ваня\Колледж\2 курс\2 семестр\Программиров�
 E:\Ваня\Колледж\2 курс\2 семестр\Программирование\Работа 12\student_exam\obj\Debug\student_exam.csproj.CoreCompileInputs.cache
 E:\Ваня\Колледж\2 курс\2 семестр\Программирование\Работа 12\student_exam\obj\Debug\student_exam.exe
 E:\Ваня\Колледж\2 курс\2 семестр\Программирование\Работа 12\student_exam\obj\Debug\student_exam.pdb
+C:\Users\prdb\Desktop\student_exam-main\student_exam\bin\Debug\student_exam.exe.config
+C:\Users\prdb\Desktop\student_exam-main\student_exam\bin\Debug\student_exam.exe
+C:\Users\prdb\Desktop\student_exam-main\student_exam\bin\Debug\student_exam.pdb
+C:\Users\prdb\Desktop\student_exam-main\student_exam\obj\Debug\student_exam.csproj.AssemblyReference.cache
+C:\Users\prdb\Desktop\student_exam-main\student_exam\obj\Debug\student_exam.csproj.SuggestedBindingRedirects.cache
+C:\Users\prdb\Desktop\student_exam-main\student_exam\obj\Debug\student_exam.csproj.CoreCompileInputs.cache
+C:\Users\prdb\Desktop\student_exam-main\student_exam\obj\Debug\student_exam.exe
+C:\Users\prdb\Desktop\student_exam-main\student_exam\obj\Debug\student_exam.pdb
